@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a620f0df794094db6b57ec95377d7f, type: 3}
+  m_Name: Gun - Rifle
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 4698201593948852689, guid: 185ce04d44da342739f0bef843698e6c, type: 3}
+  shootDamage: 10
+  shootRate: 2
+  shootDist: 1000
+  ammoCur: 3
+  ammoMax: 3
+  hitEffect: {fileID: 5024009746357069192, guid: ec3f674830402cc45bce805cf6493db7, type: 3}
+  shootSound:
+  - {fileID: 8300000, guid: 1ad3657b350982443baf684c2dbc5b6b, type: 3}
+  shootVol: 0.5
